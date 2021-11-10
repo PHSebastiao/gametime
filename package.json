@@ -1,0 +1,29 @@
+{
+    "name": "gametime",
+    "version": "1.0.0",
+    "description": "Blog sobre jogos e e-sports",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PHSebastiao/gametime.git"
+    },
+    "keywords": [
+        "css",
+        "html",
+        "express",
+        "esports"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PHSebastiao/gametime/issues"
+    },
+    "homepage": "https://github.com/PHSebastiao/gametime#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
