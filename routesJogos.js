@@ -9,22 +9,22 @@ router.get('/', function(req, res) {
 
 // Rota Jogos Retro
 router.get('/retro', function(req, res) {
-    res.sendFile('./jogosretro.html', handler);
+    res.sendFile('./JogosRetro.html', handler);
 });
 
 // Rota Jogos Terror
 router.get('/terror', function(req, res) {
-    res.sendFile('./jogosterror.html', handler);
+    res.sendFile('./JogosTerror.html', handler);
 });
 
 // Rota Jogos Mobile
 router.get('/mobile', function(req, res) {
-    res.sendFile('./jogosmobile.html', handler);
+    res.sendFile('./JogosMobile.html', handler);
 });
 
 // Rota Jogos Ação
 router.get('/acao', function(req, res) {
-    res.sendFile('./jogosacao.html', handler);
+    res.sendFile('./JogosAcao.html', handler);
 });
 
 // Rota Jogos fps

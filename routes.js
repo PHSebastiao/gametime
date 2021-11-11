@@ -15,7 +15,7 @@ router.get('/esports', function(req, res) {
 
 // Rota Sobre nos
 router.get('/sobrenos', function(req, res) {
-    res.sendFile('./sobrenos.html', handler);
+    res.sendFile('./sobreNos.html', handler);
 });
 
 module.exports = router;
