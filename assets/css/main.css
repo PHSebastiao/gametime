@@ -3544,7 +3544,8 @@ body.is-menu-visible #menu {
 
 /* Banner */
 
-#banner {
+#banner,
+.banner {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
@@ -3564,7 +3565,8 @@ body.is-menu-visible #menu {
     text-align: center;
 }
 
-#banner h2 {
+#banner h2,
+.banner h2 {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -3581,13 +3583,16 @@ body.is-menu-visible #menu {
     z-index: 1;
 }
 
-#banner img {
+#banner img,
+.banner img {
     height: 200px;
     width: 200px;
 }
 
 #banner h2:before,
-#banner h2:after {
+#banner h2:after,
+.banner h2:before,
+.banner h2:after {
     -moz-transition: width 0.85s ease;
     -webkit-transition: width 0.85s ease;
     -ms-transition: width 0.85s ease;
@@ -3604,26 +3609,31 @@ body.is-menu-visible #menu {
     width: 100%;
 }
 
-#banner h2:before {
+#banner h2:before,
+.banner h2:before {
     top: 0;
     left: 0;
 }
 
-#banner h2:after {
+#banner h2:after,
+.bannerh2:after {
     bottom: 0;
     right: 0;
 }
 
-#banner p {
+#banner p,
+.banner p {
     letter-spacing: 0.100em;
     text-transform: uppercase;
 }
 
-#banner p a {
+#banner p a,
+.banner p a {
     color: inherit;
 }
 
-#banner .more {
+#banner .more,
+.banner .more {
     -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
     -webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
     -ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3655,8 +3665,9 @@ body.is-menu-visible #menu {
     z-index: 1;
 }
 
-#banner .more:after {
-    background-image: url("images/arow.svg");
+#banner .more:after,
+.banner .more:after {
+    background-image: url("images/arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3670,7 +3681,8 @@ body.is-menu-visible #menu {
     width: 1.5em;
 }
 
-#banner:after {
+#banner:after,
+.banner:after {
     pointer-events: none;
     -moz-transition: opacity 3s ease-in-out;
     -webkit-transition: opacity 3s ease-in-out;
@@ -4117,10 +4129,10 @@ body.is-mobile #main>header {
 /* Landing */
 
 body.landing #page-wrapper {
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4129,10 +4141,10 @@ body.landing #page-wrapper {
 }
 
 body.landing #page-wrapper2 {
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/Gametime\ -\ LOGO.png");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/Gametime\ -\ LOGO.png");
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".../../images/Imagens PNG/Gametime\ -\ LOGO.png");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/Gametime\ -\ LOGO.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4141,10 +4153,10 @@ body.landing #page-wrapper2 {
 }
 
 body.landing #page-wrapper3 {
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/weGrande.png");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/weGrande.png");
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/weGrande.png");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/weGrande.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4162,10 +4174,10 @@ body.is-mobile.landing #page-wrapper {
 
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Imagens PNG/5.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
