@@ -31,10 +31,10 @@
                 s.async = true;
                 s.addEventListener('load', function() {
                     var myLandbot = new Landbot.Livechat({
-                        configUrl: 'https://chats.landbot.io/v3/H-1039243-W3CK3UF7MESW6HPF/index.json',
+                        configUrl: 'assets/landbot/index.json',
                     });
                 });
-                s.src = 'https://static.landbot.io/landbot-3/landbot-3.0.0.js';
+                s.src = 'assets/landbot/landbot-3.0.0.js';
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);
             }
