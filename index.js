@@ -6,6 +6,7 @@ const routesJogos = require('./routesJogos')
 
 app.use('/assets', express.static('assets'));
 app.use('/images', express.static('images'));
+app.use('/audio', express.static('audio'));
 
 app.use('/', routes)
 app.use('/jogos', routesJogos)

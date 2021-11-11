@@ -9,6 +9,30 @@
 
 /* Style The Dropdown Button */
 
+.btn-instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    box-shadow: none !important;
+    color: #ffffff !important;
+    margin-left: -3em;
+}
+
+.playsound {
+    border: none;
+    width: 25%;
+}
+
+.content-som h2 {
+    float: left;
+    width: 75%;
+}
+
+.content-som p {
+    display: inline-block;
+}
+
 .espaco {
     margin-top: 150px;
     text-align: center;
@@ -3681,6 +3705,7 @@ body.is-menu-visible #menu {
     opacity: 1;
     outline: 0;
     padding-left: 0.225em;
+    padding-top: 5px;
     position: absolute;
     text-align: center;
     text-transform: uppercase;
@@ -4147,7 +4172,7 @@ body.landing #page-wrapper2 {
 
 body.landing #page-wrapper3 {
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/2...png");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Fotos e ícones/Ícones para o site/weGrande.png");
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
     background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
     background-attachment: fixed;
