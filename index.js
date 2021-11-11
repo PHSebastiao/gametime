@@ -11,6 +11,5 @@ app.use('/audio', express.static('audio'));
 app.use('/', routes)
 app.use('/jogos', routesJogos)
 
-app.listen(port, () => {
-    console.log(`Site rodando em http://localhost:${port}`)
-})
+app.listen(process.env.PORT || 3000,
+    () => console.log("Server is running..."));
