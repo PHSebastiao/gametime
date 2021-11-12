@@ -35,6 +35,11 @@
     text-align: justify;
 }
 
+.sound-icon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .btn-instagram {
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
@@ -48,6 +53,7 @@
 .playsound {
     border: none;
     width: 25%;
+    max-width: 125px!important;
 }
 
 .content-som h2 {
