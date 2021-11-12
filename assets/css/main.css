@@ -54,6 +54,8 @@
     border: none;
     width: 25%;
     max-width: 125px!important;
+    border-radius: 0.25rem!important;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
 }
 
 .content-som h2 {
@@ -2520,7 +2522,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-    background-color: #44d2f9;
+    background-color: #3e414a;
     box-shadow: none !important;
     color: #ffffff !important;
     margin-left: -3em;
